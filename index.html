@@ -41,6 +41,16 @@ subcategorias mas afectadas.
   allowfullscreen="true"
 ></iframe>
 
-<p>Adicionalmente, se ha empleado la herramienta de google sheets para generar un grafico similar a uno de los propuestos en POWER BI, incluyendo los fallecimientos. De esta forma, se observara un grafico donde apareceria la informacion de tanto los casos por covid como los fallecimientos</p>
+<h3>Justificaciones de graficos</h3>
+
+<p><b>Evolucion del COVID x Categoria:</b> En este caso se trata de un grafico lineal que representa una serie temporal. En el se puede observar la evolucion de los casos durante todo el periodo en el cual se recopilaron los datos.
+Un grafico lineal es una de las mejores opciones para representar una serie temporal, a la que se le ha añadido la opcion de filtrar por fecha o por la categoria de casos que se desea observar.
+El dashboard se ha completado con un grafico de anillo para observar la proporcion de casos de las subcategorias dependiendo de la categoria escogida y durante el tiempo seleccionado, informacion adicional.</p>
+<p><b>Evolucion casos por subcategoria:</b> En este dashboard se consideraria una version animada del anterior. Es una observacion de los ratios entre casos y fallecidos que ha supuesto para cada una de las subcategorias existentes en el conjunto de datos. Generalmente se mantienen todas en torno a los mismos valores, salvo en unos casos en los que alguna subcategoria se distancia lo que se podria considerar como una de las olas que se observan en la serie temporal</p>
+<p><b>Comparacion de casos y fallecimientos:</b> Se trata de un grafico de barras en el que se pretende comparar los casos con los fallecidos de cada una de las subcategorias. Bien es cierto que el numero de casos es mucho mayor que el de fallecidos, y que se aprecia poco este ultimo valor en algunas de las subcategorias, pero es una buena opcion para realizar una comparacion entre estos dos valores.</p>
+<p><b>Distribucion de casos x Subcategoria:</b> Este dashboard pretende mejorar el grafico de anillo en el primer dashboard. S Se trata de un TreeMap en el cual las subcategorias se distribuyen u¡y adoptan una seria de tamaños en funcion de la cantidad de casos que han registrado. Este grafico tambien se puede filtrar sergún la categoria que se pretenda observar, aunque es mas visible y util para el caso de la categoria de raza etnica, donde este grafico ayuda a visualizar mejor las proporciones que el grafico de anillo puesto que se compone de mas subcategorias y en este ultimo resulta dificil de apreciarlas.</p>
+
+<br>
+<p>Adicionalmente, se ha empleado la herramienta de google sheets para generar un grafico similar a uno de los propuestos en POWER BI, incluyendo los fallecimientos. De esta forma, se observara un grafico donde apareceria la informacion de tanto los casos por covid como los fallecimientos.</p>
 
 <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQF4-gBbdX1KrhNraG3-I5AjjKQBN7-KjxRRDFneZta8exkrNfTvKi9zdtleuifBGof5dRQ77ardU3s/pubchart?oid=148522278&amp;format=interactive"></iframe>
